@@ -3,8 +3,8 @@
 # Michael vanDael
 # 22-03-2017
 
-echo 201601
-zless /net/corpora/twitter2/Tweets/2016/01/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201501
+zless /net/corpora/twitter2/Tweets/2015/01/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201602
 zless /net/corpora/twitter2/Tweets/2016/02/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201603
