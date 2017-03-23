@@ -3,31 +3,53 @@
 # Michael vanDael
 # 22-03-2017
 
+echo 201101
+zless /net/corpora/twitter2/Tweets/2011/01/201***03:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201104
+zless /net/corpora/twitter2/Tweets/2011/04/201***04:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201107
+zless /net/corpora/twitter2/Tweets/2011/07/201***04:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201110
+zless /net/corpora/twitter2/Tweets/2011/10/201***03:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201201
+zless /net/corpora/twitter2/Tweets/2012/01/201***02:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201204
+zless /net/corpora/twitter2/Tweets/2012/04/201***02:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201207
+zless /net/corpora/twitter2/Tweets/2012/07/201***02:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201210
+zless /net/corpora/twitter2/Tweets/2012/10/201***01:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201301
+zless /net/corpora/twitter2/Tweets/2013/01/201***07:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201304
+zless /net/corpora/twitter2/Tweets/2013/04/201***01:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201307
+zless /net/corpora/twitter2/Tweets/2013/07/201***01:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201310
+zless /net/corpora/twitter2/Tweets/2013/10/201***07:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201401
+zless /net/corpora/twitter2/Tweets/2014/01/201***06:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201404
+zless /net/corpora/twitter2/Tweets/2014/04/201***07:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201407
+zless /net/corpora/twitter2/Tweets/2014/07/201***07:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201410
+zless /net/corpora/twitter2/Tweets/2014/10/201***06:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201501
-zless /net/corpora/twitter2/Tweets/2015/01/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201602
-zless /net/corpora/twitter2/Tweets/2016/02/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201603
-zless /net/corpora/twitter2/Tweets/2016/03/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+zless /net/corpora/twitter2/Tweets/2015/01/201***05:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201504
+zless /net/corpora/twitter2/Tweets/2015/04/201***06:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201507
+zless /net/corpora/twitter2/Tweets/2015/07/201***06:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201510
+zless /net/corpora/twitter2/Tweets/2015/10/201***05:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+echo 201601
+zless /net/corpora/twitter2/Tweets/2016/01/201***04:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201604
-zless /net/corpora/twitter2/Tweets/2016/04/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201605
-zless /net/corpora/twitter2/Tweets/2016/05/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201606
-zless /net/corpora/twitter2/Tweets/2016/06/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+zless /net/corpora/twitter2/Tweets/2016/04/201***04:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201607
-zless /net/corpora/twitter2/Tweets/2016/07/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201608
-zless /net/corpora/twitter2/Tweets/2016/08/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201609
-zless /net/corpora/twitter2/Tweets/2016/09/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+zless /net/corpora/twitter2/Tweets/2016/07/201***04:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201610
-zless /net/corpora/twitter2/Tweets/2016/10/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201611
-zless /net/corpora/twitter2/Tweets/2016/11/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201612
-zless /net/corpora/twitter2/Tweets/2016/12/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+zless /net/corpora/twitter2/Tweets/2016/10/201***03:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201701
-zless /net/corpora/twitter2/Tweets/2017/01/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
-echo 201702
-zless /net/corpora/twitter2/Tweets/2017/02/201***23:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
+zless /net/corpora/twitter2/Tweets/2017/01/201***02:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
