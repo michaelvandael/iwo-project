@@ -3,6 +3,7 @@
 # Michael vanDael
 # 22-03-2017
 
+echo This script gathers twitter data from the corpora at the university of Groningen. For every sample you see year and month following the data
 echo 201101
 zless /net/corpora/twitter2/Tweets/2011/01/201***03:**.out.gz | /net/corpora/twitter2/tools/tweet2tab -i text | grep '#vegan' | wc -l
 echo 201104
